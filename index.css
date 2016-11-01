@@ -1,7 +1,9 @@
-* {
-    background-color: #7b828b;
-}
-#lenguage>a>img{
+.lenguage {
     width: 30px;
-    height: 30px;
+}
+header {
+    background-color: #393638;
+}
+header>p: {
+    display: inline;
 }
