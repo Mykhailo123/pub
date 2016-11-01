@@ -5,13 +5,14 @@
     <title>PUB PartyFon</title>
      <link rel="shortcut icon" href="icon/favicon.ico" type="image/x-icon">
      <link rel="stylesheet" href="index.css" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Playball" rel="stylesheet">
 </head>
 <body>
-    <header>
-         <div>
-        <a href="#"><img class="lenguage" src="icon/uk.png" alt="uk"></a>
-        <a href="index1.html"><img class="lenguage" src="icon/ukr.png" alt="ukr"></a>
+     <div>
+        <a href="#"><img class="language" src="icon/uk.png" alt="uk"></a>
+        <a href="index1.html"><img class="language" src="icon/ukr.png" alt="ukr"></a>
          </div>
+    <header>
         <p>Lviv, st. Nadrichna 6, 937-98-92</p>
         <p> PUB PartyFon </p>
          <a href="#"><img src="image/logo.png" alt="logo"></a>
@@ -27,15 +28,15 @@
     <main>
         <h1> Celebrate with PUB PartyFon </h1>
         <div>
-            <a href="#"><img src="icon/left-arrow.png" alt="left"></a>
+            <a href="#"><img class="arrow" src="icon/left-arrow.png" alt="left"></a>
             <div>
-                 <img src="image/helloween.jpg" alt="logo">                     <!-- Всі картинки? -->
+                 <img id="img" src="image/helloween.jpg" alt="logo">                     <!-- Всі картинки? -->
                  <ul type="circle">
                      <li></li>
                      <li></li>                                                  <!-- css рядок -->
                      <li></li>
                  </ul>
-                 <a href="#"><img src="icon/right-arrow.png" alt="right"></a>
+                 <a href="#"><img class="arrow" src="icon/right-arrow.png" alt="right"></a>
              </div>
              <button><img src="icon/money.png" alt="Money"> Reservations</button> <!-- ПРописути type? -->
         </div> 
@@ -65,8 +66,8 @@
             </ul>
         </div>
         <h2> Discounts for regular customers </h2>
-        <div>
-           <img src="image/card.jpg" alt="card">
+        <div id="card">
+           <img src="image/card.png" alt="card">
             <button><img src="icon/credit-card.png" alt="card"> Order cards</button>
         </div>
          <form method="POST" action="https://formspree.io/mshtogryn@gmail.com">
@@ -80,7 +81,7 @@
         </form>
         <h3>Stars in PartyFon</h3>
         <div>
-            <ul>
+            <ul id="star">
                 <li> <img src="image/star1.jpg" alt="star1"> "The concert was unforgettable" </li>  
                 <li> <img src="image/star2.jpg" alt="star2"> "Сhief cook - unrivaled" </li>
                 <li> <img src="image/star3.jpg" alt="star3"> "Best beer in Ukraine"</li>

@@ -1,15 +1,23 @@
-.lenguage {
+* {
+    font-family: 'Playball', cursive;
+}
+body{
+    background-color: #dae1dd;
+}
+main {
+    background-color: #f2efe8;
+}
+.language {
     width: 30px;
 }
 header {
-    background-color: #393638;
-    border-radius: 10px;
+    background-color:#3f373c;
 }
 header>p: {
     display: inline;
 }
-ul>li{
-     list-style-type: none;
+a {
+    text-decoration: none;
 }
 nav>ul>li {
     display: inline;
@@ -17,3 +25,8 @@ nav>ul>li {
     border-radius: 2px;
     margin: 2px;                   /* werewrwe */
 }
+.arrow {
+    width: 70px;
+}
+#img {
+    width: 70%;
