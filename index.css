@@ -7,3 +7,7 @@ header {
 header>p: {
     display: inline;
 }
+header>ul>li {
+    display: inline;
+    clear:both;
+}
