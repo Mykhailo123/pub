@@ -1,21 +1,7 @@
 * {
-    background-color: #f2efe8;
+    background-color: #7b828b;
 }
 #lenguage>a>img{
     width: 30px;
     height: 30px;
-}
-header {
-    background-color: #3f373c;
-      border-radius: 5px;
-}
-header>p{                           /* тисчасові */
-    display: inline;
-}
-header>a>img{           
-    background-color: #3f373c;               /* тисчасові */
-}
-nav>ul>li {
-    display: inline;
-    border-radius: 
 }
