@@ -1,0 +1,6 @@
+nav>ul>li {
+    display: inline;
+    background-color: #f2efe8;
+    border-radius: 2px;
+    margin: 2px;                   /* werewrwe */
+}

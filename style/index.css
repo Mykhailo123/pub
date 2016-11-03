@@ -1,0 +1,18 @@
+* {
+    font-family: 'Playball', cursive;
+}
+body{
+    background-color: #dae1dd;
+}
+main {
+    background-color: #f2efe8;
+}
+.language {
+    width: 3%;
+}
+header {
+    background-color:#3f373c;
+}
+header>p: {
+    display: inline;
+}
