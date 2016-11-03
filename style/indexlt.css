@@ -1,6 +1,26 @@
-nav>ul>li {
-    display: inline;
-    background-color: #f2efe8;
-    border-radius: 2px;
-    margin: 2px;                   /* werewrwe */
+header{
+    
+}
+header img {
+    position: relative;
+     top: -30px;
+     float: left;
+}
+header #adr {
+    float: right;
+    margin-right: 10px;
+}
+header #pub {
+    clear: right;
+    font-size: 40px;
+    position: relative;
+    top: 30px;
+    left: 80px;
+} 
+header nav {
+
+     display: flex;
+}
+header nav ul {
+      display: flex;
 }
