@@ -1,5 +1,5 @@
 header{
-    height: 362px;
+    height: 300px;
 }
 header img {
     position: relative;
@@ -21,7 +21,7 @@ header #pub {
 } 
 nav {
     position: relative;
-    top:110px;
+    top:70px;
 }
 header nav ul {
       display: flex;
@@ -47,6 +47,13 @@ header>nav>ul>li>a:hover {
       text-decoration: none;
       background-color: #dae1dd;
       color:#3f373c;
-   
-       
+    
+}
+header>nav>ul>li>a:active {
+      text-decoration: none;
+      background-color: #dae1dd;
+      color:#3f373c; 
+}
+#gol {
+    color:yellow;
 }
