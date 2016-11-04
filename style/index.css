@@ -21,3 +21,6 @@ header {
 header>p: {
     display: inline;
 }
+form {
+    display:none;
+}
