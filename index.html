@@ -32,38 +32,42 @@
     <main>
         <h1> Celebrate with PUB PartyFon </h1>
           <form method="POST" action="https://formspree.io/mshtogryn@gmail.com">
-            <label for="name1"> Name:</label>
+              <img src="icon/cross-out.png" alt="cross">
+            <label id="label1" for="name1"> Name:</label>
             <input type="text" name="name1" id="name1" placeholder="Your name">
-                <br>
              <label for="tel1"> Phone Number:</label>
              <input type="tel" name="tel1" id="tel1" placeholder="068-76-37-737" pattern="[0-9]{3}-[0-9]{2}-[0-9]{2}-[0-9]{3}"> <!-- vvid "-" -->
-                <br>
-             <label for="number"> Number of the table:</label>
+             <label  for="number"> Number of the table:</label>
              <input type="number" name="number" id="number"  min="1" max="13" placeholder="7">
-                 <br>
-             <label for="data1"> Data:</label>
+             <label  for="data1"> Data:</label>
              <input type="date" name="data1" id="data1">
-             <br>
-            <input type="submit" name="submit" value="Send">
+            <input id="button" type="submit" name="submit" value="Send">
         </form>
         <div class="img">
-                 <img src="image/happy-new-year.png" alt="logo">                     
+                 <img src="image/happy-new-year.png" alt="logo">
              <div><button><img src="icon/money.png" alt="Money"> Reservations</button> </div> <!-- ПРописути type? -->
         </div> 
         <h3>Only in PartyFon PUB</h3>
-        <div>
-            <ul>
-                <li> <img src="icon/cutlery.png" alt="good food"> Delicious food </li>
-                <li> <img src="icon/beer.png" alt="good beer">Own beer </li>
-                <li> <img src="icon/microphone.png" alt="good music">Karaoke </li>
-                <li> <img src="icon/team.png" alt="good team"> Friendly company </li>
-                <li> <img src="icon/truck.png" alt="home delivery"> Home delivery </li>
+        <div id="only">
+            <ul id="icon">
+                <li> <img src="icon/restaurant.png" alt="good food"></li>
+                <li> <img src="icon/beer.png" alt="good beer"> </li>
+                <li> <img src="icon/microphone.png" alt="good music"> </li>
+                <li> <img src="icon/team.png" alt="good team">  </li>
+                <li> <img src="icon/truck.png" alt="home delivery"> </li>
+            </ul>
+             <ul>
+                <li> Delicious food </li>
+                <li> Own beer </li>
+                <li class="bag"> Karaoke </li>
+                <li class="bag"> Friendly company </li>
+                <li> Home delivery </li>
             </ul>
         </div>
         <h2> Discounts for regular customers </h2>
         <div id="card">
-           <img src="image/card.png" alt="card">
-            <button><img src="icon/credit-card.png" alt="card"> Order cards</button>
+           <img src="image/card.png" alt="card"> 
+            <button><img src="icon/money.png" alt="card"> Order cards</button>
         </div>
          <form method="POST" action="https://formspree.io/mshtogryn@gmail.com">
             <label for="name2"> Name:</label>
