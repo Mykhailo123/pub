@@ -1,6 +1,9 @@
 header{
     height: 300px;
 }
+li{
+    list-style-type: none;
+}
 header img {
     position: relative;
      top: -30px;
@@ -71,7 +74,7 @@ h1{
     text-align:center;
 }
 form {
-   
+    display: none;
     position: absolute;
     right: 0;
     border: 5px solid #3f373c; 
@@ -170,5 +173,41 @@ h2 {
 #form2 .button {
     margin-bottom: 10px;
 }
+#star {
+    display: flex;
+    justify-content:space-around;
+}
+#star li {
+     list-style-type: none;
+}
 
+#star li img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%
+}
+.err {
+     position: relative;
+    right: 25px;
+}
+#location {
+    max-width: 1040px;
+    margin: 0 auto;
+}
+#location inframe{
+    
+}
+#location p {
+    text-align: center;
+}
 
+footer ul {
+     background-color: #3f373c;
+    display: flex;
+    justify-content:space-around;
+    height: 100px;
+    align-items:center;
+}
+footer p {
+    text-align: center;
+}
