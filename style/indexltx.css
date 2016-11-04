@@ -131,6 +131,7 @@ form img {
     float: right;
 }
 #only ul {
+    padding-left: 0;
     display: flex;
     list-style-type: none;
     justify-content:space-around;
@@ -156,7 +157,7 @@ h2 {
 #card {
     height: 300px;
     display: flex;
-    justify-content:center;
+    justify-content:space-around;
 }
 #card button {
     margin-right: 30px;
@@ -177,10 +178,17 @@ h2 {
     display: flex;
     justify-content:space-around;
 }
+#star1 {
+    display: flex;
+    justify-content:space-around;
+}
 #star li {
      list-style-type: none;
+     font-size:20px
 }
-
+#star1 li {
+     font-size:20px
+}
 #star li img {
     width: 200px;
     height: 200px;
@@ -194,9 +202,7 @@ h2 {
     max-width: 1040px;
     margin: 0 auto;
 }
-#location inframe{
-    
-}
+
 #location p {
     text-align: center;
 }
@@ -204,9 +210,12 @@ h2 {
 footer ul {
      background-color: #3f373c;
     display: flex;
-    justify-content:space-around;
+    justify-content:center;
     height: 100px;
     align-items:center;
+}
+footer ul li {
+    padding: 0 6px
 }
 footer p {
     text-align: center;

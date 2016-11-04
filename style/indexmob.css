@@ -1,5 +1,227 @@
-nav>ul>li {
-    display: inline;
-    background-color: #000000;
-    margin: 2px;                   /* werewrwe */
+header img {
+    display: none;
+}
+header{
+    height: 100px;
+}
+li{
+    list-style-type: none;
+}
+
+header #adr {
+    text-align: center;
+    color: #dae1dd;
+}
+header #pub {
+   
+    font-size: 40px;
+    text-align: center;
+    color: #dae1dd;
+}
+header nav {
+    background-color: #3f373c;
+}
+header nav ul {
+      display: flex;
+      justify-content:space-around;
+      padding-left: 0;
+}
+header nav ul li  {
+      text-decoration: none;
+      background-color: #3f373c;
+      font-size: 20px;
+      text-align: center;
+      list-style-type: none;
+
+}
+header nav ul li a {
+      text-decoration: none;
+      background-color: #3f373c;
+      color:#dae1dd;
+
+}
+header>nav>ul>li>a:hover {
+      text-decoration: none;
+      background-color: #dae1dd;
+      color:#3f373c;
+
+}
+#gol {
+    color:#995d03;
+}
+h1{
+    margin-top: 5px;
+    text-align: center;
+    font-size: 50px;
+    color: #3f373c;
+}
+.img  {
+    margin: 0 auto;
+}
+.img>img {
+    width: 100%;
+    text-align:center;
+}
+form {
+    display: none;
+    background-color:  #3f373c ;
+    color:#dae1dd;
+    font-size: 20px;
+}
+form input{
+    display: flex;
+}
+form input{
+    padding-right: 10px;
+    
+}
+main>div>div {
+    text-align: center;
+}
+main div button {
+    margin: 0;
+    padding: 0;
+    width: 260px;
+    background-color:#3f373c;
+    color: #dae1dd;
+    border:0;
+}
+h3{
+    margin-top: 40px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 50px;
+    color: #3f373c;
+}
+form{
+   
+    text-align: center;
+}
+
+form input {
+    margin: 10px auto;
+    width: 270px;
+    height: 30px;
+    font-size: 24px;
+    text-align: center;
+}
+.button {
+    text-align: center;
+    background-color: #3f373c;
+    border : 0;
+    margin: 1 auto;
+    color:  #dae1dd;
+}
+form img {
+    float: right;
+}
+#only ul {
+    padding-left: 0;
+    display: flex;
+    list-style-type: none;
+    justify-content:space-around;
+}
+#icon li {
+    display: none;
+     border : 3px solid #3f373c;
+    border-radius: 50%;
+}
+#only ul li{
+    display: none;
+    font-size: 20px;
+}
+#icon .mob,#only .mob {
+    display: block
+}
+.bag {
+    position: relative;
+    right: -25px;
+}
+h2 {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 50px;
+    color: #3f373c;
+    margin-bottom: 15px;
+}
+#card {
+    height: 200px;
+    text-align: center;
+    
+   
+}
+#card button {
+    padding: 3px 10px;
+    
+}
+#card img {
+    height: 100%;
+}
+#form2 input{
+    margin: 0 auto;
+}
+#form2 .button {
+    margin-bottom: 10px;
+}
+#star {
+    padding-left: 0;
+    display: flex;
+    justify-content:space-around;
+}
+#star1 {
+    padding-left: 0;
+    display: flex;
+    justify-content:space-around;
+}
+#star li {
+    display: none;
+     list-style-type: none;
+     font-size:20px
+}
+#star1 li {
+    display: none;
+    text-align: center;
+     list-style-type: none;
+     font-size:20px
+}
+#star .mob2 {
+    display:block;
+}
+#star1 .mob2 {
+    display:block;
+}
+#star li img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%
+}
+.err {
+     position: relative;
+    right: 25px;
+}
+#location {
+    max-width: 1040px;
+    margin: 0 auto;
+}
+
+#location p {
+    text-align: center;
+}
+
+footer ul {
+     background-color: #3f373c;
+    display: flex;
+    justify-content:center;
+    height: 100px;
+    align-items:center;
+}
+footer ul li {
+    display: none;
+ 
+}
+.linkk {
+    display: block;
+}
+footer p {
+    text-align: center;
 }
