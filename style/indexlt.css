@@ -64,15 +64,29 @@ h1{
     margin: 0 auto;
     width: 80%
 }
-.img img {
+.img>img {
     width: 100%;
     text-align:center;
 }
 form {
-    display: none;
+    position: absolute;
+    right: 0;
+    border: 1px solid #3f373c; 
+    background-color: #dae1dd;
+    color: #3f373c;
+    font-size: 20px;
+}
+form input{
+    display: flex;
+    
+    
+}
+form input{
+    padding-right: 10px;
+    
 }
 main>div>div {
-    margin-top: 20px;
+
     text-align: center;
 }
 main div button {
@@ -81,4 +95,11 @@ main div button {
     color: #dae1dd;
     border:0;
     font-size: 30px;
+}
+h3{
+    margin-top: 40px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 50px;
+    color: #3f373c;
 }
