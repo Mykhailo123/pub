@@ -63,7 +63,7 @@ h1{
     text-align:center;
 }
 form {
-    
+    display: none;
     background-color:  #3f373c ;
     color:#dae1dd;
     font-size: 20px;
