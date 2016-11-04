@@ -63,7 +63,7 @@ h1{
     text-align:center;
 }
 form {
-    display: none;
+    
     background-color:  #3f373c ;
     color:#dae1dd;
     font-size: 20px;
@@ -209,9 +209,10 @@ h2 {
 }
 
 footer ul {
+    padding-left: 0;
      background-color: #3f373c;
     display: flex;
-    justify-content:center;
+    justify-content:space-around;
     height: 100px;
     align-items:center;
 }

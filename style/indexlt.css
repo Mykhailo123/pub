@@ -157,7 +157,7 @@ h2 {
 #card {
     height: 300px;
     display: flex;
-    justify-content:space-around;
+    justify-content:center;
 }
 #card button {
     margin-right: 30px;
