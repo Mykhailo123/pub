@@ -1,14 +1,15 @@
 * {
     font-family: 'Playball', cursive;
+    margin: 0px;
 }
 body{
     background-color: #dae1dd;
 }
-main {
-    background-color: #f2efe8;
-}
+
 .language {
     width: 30px;
+    margin-top: 10px;
+    margin-right: 10px;
 }
 #language {
     display: flex;

@@ -21,7 +21,7 @@ header #pub {
 } 
 nav {
     position: relative;
-    top:70px;
+    top:150px;
 }
 header nav ul {
       display: flex;
@@ -34,20 +34,17 @@ header nav ul li  {
       font-size: 25px;
       text-align: center;
       list-style-type: none;
-       
+
 }
 header nav ul li a {
       text-decoration: none;
       background-color: #3f373c;
       color:#dae1dd;
-      width: 200px;
-       
 }
 header>nav>ul>li>a:hover {
       text-decoration: none;
       background-color: #dae1dd;
       color:#3f373c;
-    
 }
 header>nav>ul>li>a:active {
       text-decoration: none;
@@ -55,5 +52,30 @@ header>nav>ul>li>a:active {
       color:#3f373c; 
 }
 #gol {
-    color:yellow;
+    color:#995d03;
+}
+h1{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 50px;
+    color: #3f373c;
+}
+#img {
+    width: 100%;
+    max-height: 730px;
+}
+form {
+    display: none;
+}
+main>div>div {
+    margin-top: 20px;
+    text-align: center;
+}
+main div button {
+    padding: 1px 100px;
+    background-color:#3f373c;
+    color: #dae1dd;
+    border:0;
+    font-size: 30px;
 }
