@@ -55,15 +55,18 @@ header>nav>ul>li>a:active {
     color:#995d03;
 }
 h1{
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 50px;
     text-align: center;
     font-size: 50px;
     color: #3f373c;
 }
-#img {
+.img  {
+    margin: 0 auto;
+    width: 80%
+}
+.img img {
     width: 100%;
-    max-height: 730px;
+    text-align:center;
 }
 form {
     display: none;
