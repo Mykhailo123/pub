@@ -1,6 +1,7 @@
 * {
     font-family: 'Playball', cursive;
-    margin: 0px;
+    margin: 0px auto;
+    max-width: 1840px;
 }
 body{
     background-color: #dae1dd;
@@ -12,15 +13,15 @@ body{
     margin-right: 10px;
 }
 #language {
-    display: flex;
-    justify-content:flex-end;
+    float: right;
 }
 header {
+    clear: both;
     background-color:#3f373c;
 }
 header>p: {
     display: inline;
 }
 form {
-    display:none;
+    display: none;
 }

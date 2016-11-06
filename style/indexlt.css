@@ -67,15 +67,17 @@ h1{
 }
 .img  {
     margin: 0 auto;
-    width: 80%
+    w;
 }
 .img>img {
     width: 100%;
     text-align:center;
 }
+.forming1{
+    float: right;
+}
 form {
-    display: none;
-    position: absolute;
+    float: right;
     right: 0;
     border: 5px solid #3f373c; 
     background-color: #dae1dd;
