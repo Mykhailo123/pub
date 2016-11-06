@@ -226,3 +226,41 @@ footer ul li {
 footer p {
     text-align: center;
 }
+
+/* MENU */
+.caddy {
+    display: none;
+}
+
+#h3 {
+    display: none;
+}
+hr {
+    display: none;
+}
+h4{
+    text-align: center;
+    padding: 15px 0;
+    color: #dae1dd;
+    background-color:#3f373c;
+    margin-top: 10px;
+}
+#hover>div {
+    height: 100px;
+}
+.menu1 {
+    float: left;
+    padding-left: 10px;
+}
+
+.men1 {
+    float: left;
+    padding-left: 10px;
+}
+.men2 {
+    clear: left;
+    margin:0 auto;
+}
+
+
+  

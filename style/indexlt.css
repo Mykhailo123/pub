@@ -67,7 +67,6 @@ h1{
 }
 .img  {
     margin: 0 auto;
-    w;
 }
 .img>img {
     width: 100%;
@@ -162,13 +161,14 @@ h2 {
     justify-content:center;
 }
 #card button {
-    margin-right: 30px;
+  
     margin-top: 250px;
     padding: 3px 10px;
     
 }
 #card img {
     height: 100%;
+    padding: 0;
 }
 #form2 input{
     margin: 0 auto;
@@ -221,4 +221,48 @@ footer ul li {
 }
 footer p {
     text-align: center;
+}
+
+.caddy {
+    max-width: 800px;
+    float: left;
+}
+#h1 {
+    clear: left;
+}
+#h3 {
+    padding-top:  100px;
+}
+h4{
+    text-align: center;
+    clear: both;
+    padding: 15px 0;
+    color: #dae1dd;
+    background-color:#3f373c;
+    margin-top: 10px;
+}
+.menu1 {
+    padding-top: 10px;
+    display: flex;
+    clear: left;
+    padding-left: 10px;
+ 
+}
+.men1 {
+    float: left;
+    padding-left: 10px;
+}
+.men2 {
+    float: right;
+    padding-right: 10px;
+}
+#hover>div {
+    margin-top: 10px;
+    height: 100px;
+    color:#3f373c;
+}
+#hover>div:hover {
+    background-color:silver;
+    margin-top: 10px;
+  
 }
