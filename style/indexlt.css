@@ -243,7 +243,6 @@ h4{
 }
 .menu1 {
     padding-top: 10px;
-    display: flex;
     clear: left;
     padding-left: 10px;
  
@@ -259,7 +258,7 @@ h4{
 #hover>div {
     margin-top: 10px;
     height: 100px;
-    color:#3f373c;
+    color:#3f373c;;
 }
 #hover>div:hover {
     background-color:silver;

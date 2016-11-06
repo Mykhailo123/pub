@@ -243,19 +243,17 @@ h4{
     padding: 15px 0;
     color: #dae1dd;
     background-color:#3f373c;
-    margin-top: 10px;
 }
 #hover>div {
-    height: 100px;
+    height: 140px;
 }
 .menu1 {
-    float: left;
     padding-left: 10px;
 }
 
 .men1 {
     float: left;
-    padding-left: 10px;
+    padding-left: 3px;
 }
 .men2 {
     clear: left;
