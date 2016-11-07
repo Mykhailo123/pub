@@ -1,62 +1,68 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+     <meta charset="UTF-8">
     <title>PUB PartyFon</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
      <link rel="shortcut icon" href="icon/favicon.ico" type="image/x-icon">
+     <link rel="stylesheet" href="style/index.css" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Playball" rel="stylesheet">
+    <link rel="stylesheet" href="style/indexlt.css" media=(min-width:700px) type="text/css" />
+    <link rel="stylesheet" href="style/indexmob.css" media=(max-width:700px) type="text/css" />
 </head>
+
 <body>
-   <div>
-        <a href="design.html"><img src="icon/uk.png" alt="uk"></a>
-        <a href="design1.html"><img src="icon/ukr.png" alt="ukr"></a>
-    </div>
-     <header>
-        <p>Lviv, st. Nadrichna 6, 937-98-92</p>
-        <p>  PUB PartyFon </p>
-         <a href="index.html"><img src="image/logo.png" alt="logo"></a>
+     <div id="language">
+        <a href="#"><img class="language" src="icon/uk.png" alt="uk"></a>
+        <a href="disign1.html"><img class="language" src="icon/ukr.png" alt="ukr"></a>
+         </div>
+    <header>
+       
+         <a href="#"><img src="image/logo.png" alt="logo"></a>
+       <p id="adr">Lviv, st. Nadrichna 6, 937-98-92</p>
+        <p id="pub"> PUB PartyFon </p>
             <nav>
                 <ul>
-                    <li> <a href="index.html"> Home </a> </li>
+                    <li> <a  href="index.html"> Home </a> </li>
                     <li> <a href="menu.html">Menu </a></li>
-                    <li> <a href="#"> Design </a></li>
+                    <li> <a id="gol" href="design.html"> Design </a></li>
                     <li> <a href="about.html">About </a></li>
                 </ul> 
             </nav> 
+            
     </header>
     <main>
         <h1>Design Pub</h1>
-      <iframe width="100%" height="500" webkitAllowFullScreen mozallowfullscreen allowFullScreen style="border:none;background:silver;" src="https://sferika.ru/tour/ins/4919/13383"></iframe>
+      <iframe width="100%" height="600" webkitAllowFullScreen mozallowfullscreen allowFullScreen style="border:none;background:silver;" src="https://sferika.ru/tour/ins/4919/13383"></iframe>
       <div>
           <h3> Placing tables </h3>
           <img width="100%" src="image/zaly.jpg" alt = " placing tables">
       </div>
-       <form method="POST" action="https://formspree.io/mshtogryn@gmail.com">
-            <label for="name"> Name:</label>
+       <form id="formdes" method="POST" action="https://formspree.io/mshtogryn@gmail.com">
+            <div> <label for="name"> Name:</label>
             <input type="text" name="name" id="name" placeholder="Your name">
-                <br>
              <label for="tel"> Phone Number:</label>
-             <input type="tel" name="tel" id="tel" placeholder="068-76-37-737" pattern="[0-9]{3}-[0-9]{2}-[0-9]{2}-[0-9]{3}"> <!-- vvid "-" -->
-                <br>
+             <input ty e="tel" name="tel" id="tel" placeholder="068-76-37-737" pattern="[0-9]{3}-[0-9]{2}-[0-9]{2}-[0-9]{3}"> <!-- vvid "-" -->
+               </div> 
+                <div>
+             <label  for="data1"> Data:</label>
+             <input class="form-date" type="date" name="data1" id="data1">
              <label for="number"> Number of the table:</label>
-             <input type="number" name="number" id="number"  min="1" max="13" placeholder="7">
-                 <br>
-             <label for="date"> Data:</label>
-             <input type="date" name="date" id="date">
-             <br>
+             <input id="form-number" type="number" name="number" id="number"  min="1" max="13" placeholder="7"> 
+              </div>  
             <input type="submit" name="submit" value="Send">
         </form>
      </main>
       <footer>
         <h3>Follow us</h3>
         <ul>
-           <li>  <a href="https://www.facebook.com/miha.shtogryn"><img src="icon/facebook.png" alt="facebook"> </a> </li>
-            <li>  <a href="https://vk.com/id15023200"><img src="icon/vk.png" alt="vk"> </a> </li>
-            <li>  <a href="https://www.linkedin.com/nhome/#notifications"><img src="icon/linkedin.png" alt="linkedin"> </a> </li>
-            <li>  <a href="https://twitter.com/?lang=uk"><img src="icon/twitter.png" alt="twitter"> </a> </li>
+            <li class="linkk">  <a href="https://www.facebook.com/miha.shtogryn"><img src="icon/facebook.png" alt="facebook"> </a> </li>
+            <li class="linkk">  <a href="https://vk.com/id15023200"><img src="icon/vk.png" alt="vk"> </a> </li>
+            <li class="linkk">  <a href="https://www.linkedin.com/nhome/#notifications"><img src="icon/linkedin.png" alt="linkedin"> </a> </li>
+            <li class="linkk">  <a href="https://twitter.com/?lang=uk"><img src="icon/twitter.png" alt="twitter"> </a> </li>
             <li>  <a href="https://www.youtube.com/channel/UCqfjz-UjSICJEAbZsMHxgQw"><img src="icon/youtube.png" alt="youtube"> </a> </li>
             <li>  <a href="https://ru.foursquare.com/user/336026375"><img src="icon/foursquare.png" alt="foursquare"> </a> </li>
         </ul>
         <p> &copy; Lviv, st. Nadrichna 6, 937-98-92 </p>
     </footer> 
-   
 </html>

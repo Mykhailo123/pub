@@ -265,3 +265,25 @@ h4{
     margin-top: 10px;
   
 }
+#formdes {
+    display: block;
+   width: 100%;
+   margin-top: 25px;
+}
+#formdes>div {
+     display: flex;
+     justify-content:space-around;
+}
+#formdes div label {
+    margin:25px;
+}
+#formdes div input {
+    margin-top: 20px;
+    padding-right: 0;
+    overflow: hidden ;
+    
+}
+#formdes #design-date {
+    position: relative;
+    right: 30px;
+}
