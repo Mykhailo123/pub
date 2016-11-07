@@ -3,58 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <title>PUB PartyFon</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
      <link rel="shortcut icon" href="icon/favicon.ico" type="image/x-icon">
+     <link rel="stylesheet" href="style/index.css" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Playball" rel="stylesheet">
+    <link rel="stylesheet" href="style/indexlt.css" media=(min-width:700px) type="text/css" />
+    <link rel="stylesheet" href="style/indexmob.css" media=(max-width:700px) type="text/css" />
 </head>
 <body>
-    <div>
-        <a href="#"><img src="icon/uk.png" alt="uk"></a>
-        <a href="about1.html"><img src="icon/ukr.png" alt="ukr"></a>
-    </div>
-     <header>
-        <p>Lviv, st. Nadrichna 6, 937-98-92</p>
-        <p>  PUB PartyFon </p>
-         <a href="index.html"><img src="image/logo.png" alt="logo"></a>
+     <div id="language">
+        <a href="#"><img class="language" src="icon/uk.png" alt="uk"></a>
+        <a href="about1.html"><img class="language" src="icon/ukr.png" alt="ukr"></a>
+         </div>
+    <header>
+       
+         <a href="#"><img src="image/logo.png" alt="logo"></a>
+       <p id="adr">Lviv, st. Nadrichna 6, 937-98-92</p>
+        <p id="pub"> PUB PartyFon </p>
             <nav>
                 <ul>
                     <li> <a href="index.html"> Home </a> </li>
                     <li> <a href="menu.html">Menu </a></li>
                     <li> <a href="design.html"> Design </a></li>
-                    <li> <a href="#">About </a></li>
+                    <li> <a id="gol" href="#">About </a></li>
                 </ul> 
             </nav> 
     </header>
-    <main>
-        <div>
+    <main id="about-main">
+        <div id="form-about">
             <h3>Lviv, st. Nadrichna 6, 937-98-92</h3>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7156.473850562841!2d24.61706815019201!3d49.25107769386986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x6a8deae1f04d1742!2z0JHRg9GA0YjRgtC40L3RgdGM0LrQuNC5INGF0LvRltCx0L7QutC-0LzQsdGW0L3QsNGCLCDQktCQ0KI!5e0!3m2!1suk!2sua!4v1477761162211" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-        </div>
-        <form method="POST" action="https://formspree.io/mshtogryn@gmail.com">
+           
+            <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7156.473850562841!2d24.61706815019201!3d49.25107769386986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x6a8deae1f04d1742!2z0JHRg9GA0YjRgtC40L3RgdGM0LrQuNC5INGF0LvRltCx0L7QutC-0LzQsdGW0L3QsNGCLCDQktCQ0KI!5e0!3m2!1suk!2sua!4v1477761162211" width=50% height=400px frameborder="0" style="border:0" allowfullscreen></iframe>
+
+        <form  id="formdes" method="POST" action="https://formspree.io/mshtogryn@gmail.com">
             <label for="name"> Name:</label>
-            <input type="text" name="name" id="name" placeholder="Your name">
-                <br>
-                <label for="email"> Email:</label>
-            <input type="email" name="email" id="email" placeholder="Your email">
-                <br>
-             <label for="tel1">Phone Number:</label>
-             <input type="tel" name="tel1" id="tel1" placeholder="068-76-37-737" pattern="[0-9]{3}-[0-9]{2}-[0-9]{2}-[0-9]{3}">          <!-- vvid "-" -->
-                <br>
-            <label for="comment"> Comment</label>
-             <textarea name="comment" id="comment" placeholder="Your comment"></textarea>
-             <br>
+            <input class="size-about" type="text" name="name" id="name" placeholder="Your name">
+            <label for="tel1">Phone Number:</label>
+             <input class="size-about" type="tel" name="tel1" id="tel1" placeholder="068-76-37-737" pattern="[0-9]{3}-[0-9]{2}-[0-9]{2}-[0-9]{3}"> 
+            <label for="email"> Email:</label>
+            <input class="size-about" type="email" name="email" id="email" placeholder="Your email">
+            <label for="comment"> Comment</label> <br>
+            <textarea class="size-about" name="comment" id="comment" placeholder="Your comment"></textarea>
+        
             <input type="submit" name="submit1" value="Send">
         </form>
+        </div>
+
     </main>
-    <footer>
+     <footer>
         <h3>Follow us</h3>
         <ul>
-            <li>  <a href="https://www.facebook.com/miha.shtogryn"><img src="icon/facebook.png" alt="facebook"> </a> </li>
-            <li>  <a href="https://vk.com/id15023200"><img src="icon/vk.png" alt="vk"> </a> </li>
-            <li>  <a href="https://www.linkedin.com/nhome/#notifications"><img src="icon/linkedin.png" alt="linkedin"> </a> </li>
-            <li>  <a href="https://twitter.com/?lang=uk"><img src="icon/twitter.png" alt="twitter"> </a> </li>
+            <li class="linkk">  <a href="https://www.facebook.com/miha.shtogryn"><img src="icon/facebook.png" alt="facebook"> </a> </li>
+            <li class="linkk">  <a href="https://vk.com/id15023200"><img src="icon/vk.png" alt="vk"> </a> </li>
+            <li class="linkk">  <a href="https://www.linkedin.com/nhome/#notifications"><img src="icon/linkedin.png" alt="linkedin"> </a> </li>
+            <li class="linkk">  <a href="https://twitter.com/?lang=uk"><img src="icon/twitter.png" alt="twitter"> </a> </li>
             <li>  <a href="https://www.youtube.com/channel/UCqfjz-UjSICJEAbZsMHxgQw"><img src="icon/youtube.png" alt="youtube"> </a> </li>
             <li>  <a href="https://ru.foursquare.com/user/336026375"><img src="icon/foursquare.png" alt="foursquare"> </a> </li>
         </ul>
-        <p> &copy; Lviv, st. Nadrichna 6, 937-98-92 </p>
+        <p id="about-table"> &copy; Lviv, st. Nadrichna 6, 937-98-92 </p>
     </footer> 
 </body>
 </html>

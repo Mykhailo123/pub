@@ -202,7 +202,7 @@ h2 {
 }
 #location {
     max-width: 1040px;
-    margin: 0 auto;
+    margin:0 auto;
 }
 
 #location p {
@@ -223,9 +223,12 @@ footer p {
     text-align: center;
 }
 
+
+/* MENU */
 .caddy {
-    max-width: 800px;
+    max-width: 100%;
     float: left;
+    max-height: 400px;
 }
 #h1 {
     clear: left;
@@ -263,8 +266,23 @@ h4{
 #hover>div:hover {
     background-color:silver;
     margin-top: 10px;
-  
 }
+.form-adress{
+    position: relative;
+    left: -8px;
+}
+.form-area {
+    position: relative;
+    left: -12px;
+}
+#formdes #form-submit {
+    margin: 10px auto;
+    background-color:#3f373c; 
+    color: #dae1dd;
+    padding-left: 60px;
+    height: 40px;
+}
+/* Design */
 #formdes {
     display: block;
    width: 100%;
@@ -273,6 +291,9 @@ h4{
 #formdes>div {
      display: flex;
      justify-content:space-around;
+}
+#formdes {
+    max-width: 98%;
 }
 #formdes div label {
     margin:25px;
@@ -283,7 +304,44 @@ h4{
     overflow: hidden ;
     
 }
-#formdes #design-date {
+
+#form-number {
     position: relative;
-    right: 30px;
+    left: -8px;
+}
+.form-date{
+    position: relative;
+    left: 15px;
+}
+
+/*About */
+#map {
+    margin-left: 30px;
+    margin-top: 10px;
+   
+}
+#form-about {
+    margin-top: 10px;
+    max-width: 97%;
+    background-color:#3f373c; 
+    height: 570px;
+
+}
+#form-about h3 {
+    color: #dae1dd;
+}
+#form-about #formdes {
+    border:0;
+    width:45%;
+    
+}
+#formdes .size-about {
+    width: 75%;
+}
+#form-about {
+    color: #dae1dd;
+}
+#form-about #formdes {
+background-color:#3f373c; 
+color: #dae1dd;
 }
