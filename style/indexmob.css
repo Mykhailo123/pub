@@ -261,4 +261,33 @@ h4{
 }
 
 
+/* NNEWWW */
+
+#formdes {
+    display: block;
+}
+#formdes input {
+    width: 80%;
+}
+#mob-form {
+    display: flex;
+    flex-direction:column;
+}
+#formdes #form-submit {
+    margin: 10px auto;
+    background-color: #dae1dd; 
+    color: #3f373c;
+    padding-left: 20px;
+    height: 40px;
+    margin-bottom: 10px;
+    width: 100px;
+}
+#map {
+    display: none;
+}
+#size-about {
+    width: 80%;
+}
+
+
   
