@@ -2,106 +2,118 @@
 <html lang="ua">
 <head>
     <meta charset="UTF-8">
-    <title>PUB PartyFon</title>
+    <title>ПАБ Патіфон</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
      <link rel="shortcut icon" href="icon/favicon.ico" type="image/x-icon">
+     <link rel="stylesheet" href="style/index.css" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Playball" rel="stylesheet">
+    <link rel="stylesheet" href="style/indexlt.css" media=(min-width:700px) type="text/css" />
+    <link rel="stylesheet" href="style/indexmob.css" media=(max-width:700px) type="text/css" />
 </head>
 <body>
-    <div>
-        <a href="index.html"><img src="icon/uk.png" alt="uk"></a>
-        <a href="#"><img src="icon/ukr.png" alt="ukr"></a>
-    </div>
+     <div id="language">
+        <a href="index.html"><img class="language" src="icon/uk.png" alt="uk"></a>
+        <a href="#"><img class="language" src="icon/ukr.png" alt="ukr"></a>
+         </div>
     <header>
-        <p>Львів, вулиця Надрічна 6, 937-98-92</p>
-        <p> ПАБ Патіфон </p>
          <a href="#"><img src="image/logo.png" alt="logo"></a>
+       <p id="adr">Львів, вул.Надрічна 6, 937-98-92</p>
+        <p id="pub"> ПАБ Патіфон </p>
             <nav>
                 <ul>
-                    <li> <a href="#"> Головна </a> </li>
-                    <li> <a href="menu1.html"> Меню </a></li>
+                    <li> <a id="gol" href="#"> Головна </a> </li>
+                    <li> <a href="menu1.html">Меню</a></li>
                     <li> <a href="design1.html"> Дизайн </a></li>
-                    <li> <a href="about1.html"> Про нас </a></li>
+                    <li> <a href="about1.html">Про нас</a></li>
                 </ul> 
             </nav> 
+            
     </header>
     <main>
-        <h1> Святкуй з Пабом Патіфон </h1>
-        <div>
-            <a href="#"><img src="icon/left-arrow.png" alt="left"></a>
-            <div>
-                 <img src="image/helloween.jpg" alt="logo">                     <!-- Всі картинки? -->
-                 <ul type="circle">
-                     <li></li>
-                     <li></li>                                                  <!-- css рядок -->
-                     <li></li>
-                 </ul>
-                 <a href="#"><img src="icon/right-arrow.png" alt="right"></a>
-             </div>
-             <button><img src="icon/money.png" alt="Money"> Reservations</button> <!-- ПРописути type? -->
-        </div> 
-        <form method="POST" action="https://formspree.io/mshtogryn@gmail.com">
-            <label for="name1"> Імя та прізвище:</label>
-            <input type="text" name="name1" id="name1" placeholder="Ваше Імя">
-                <br>
+          <h1> Святкуй з Пабом Патіфон </h1>
+         
+       
+     
+        <div class="img">
+                 <img src="image/happy-new-year.png" alt="logo">
+             <div><button><img src="icon/money.png" alt="Money"> Зарезервувати </button> </div> <!-- ПРописути type? -->
+          <form id="form-abs" method="POST" action="https://formspree.io/mshtogryn@gmail.com">
+              <img id="cross" src="icon/cross-out.png" alt="cross">
+              <img id="cencel" src="icon/cancel.png" alt="cross">
+            <label id="label1" for="name1"> Імя:</label>
+            <input type="text" name="name1" id="name1" placeholder="Ваше імя">
              <label for="tel1"> Телефонний номер:</label>
              <input type="tel" name="tel1" id="tel1" placeholder="068-76-37-737" pattern="[0-9]{3}-[0-9]{2}-[0-9]{2}-[0-9]{3}"> <!-- vvid "-" -->
-                <br>
-             <label for="number"> Номер столика:</label>
+             <label  for="number"> Номер столика:</label>
              <input type="number" name="number" id="number"  min="1" max="13" placeholder="7">
-                 <br>
-             <label for="data1"> Дата замовлення:</label>
+             <label  for="data1"> Дата замовлення:</label>
              <input type="date" name="data1" id="data1">
-             <br>
-            <input type="submit" name="submit" value="Send">
+            <input class="button" type="submit" name="submit" value="Відправити">
         </form>
-        <h3> Тільки в PartyFon PUB</h3>
-        <div>
-            <ul>
-                <li> <img src="icon/cutlery.png" alt="good food"> Неперевершена кухня </li>
-                <li> <img src="icon/beer.png" alt="good beer"> Пиво влісного виробництва </li>
-                <li> <img src="icon/microphone.png" alt="good music"> Караоке </li>
-                <li> <img src="icon/team.png" alt="good team"> Дружня компанія </li>
-                <li> <img src="icon/truck.png" alt="home delivery"> Доставка додому </li>
+        </div>
+        <h3>Лише в Патіфоні</h3>
+        <div id="only">
+            <ul id="icon">
+                <li class="mob"> <img src="icon/restaurant.png" alt="good food"></li>
+                <li> <img src="icon/beer.png" alt="good beer"> </li>
+                <li> <img src="icon/microphone.png" alt="good music"> </li>
+                <li> <img src="icon/team.png" alt="good team">  </li>
+                <li> <img src="icon/truck.png" alt="home delivery"> </li>
+            </ul>
+             <ul>
+                <li class="mob"> Вишукана кухня </li>
+                <li> Власне пиво </li>
+                <li class="bag"> Караоке </li>
+                <li class="bag"> Весела компанія </li>
+                <li> Доставка додому </li>
             </ul>
         </div>
-        <h2> Карти постійних клієнтів </h2>
-        <div>
-           <img src="image/card.jpg" alt="card">
-            <button><img src="icon/credit-card.png" alt="card"> Замовити карту</button>
-        </div>
-         <form method="POST" action="https://formspree.io/mshtogryn@gmail.com">
-            <label for="name2"> Імя та прізвище:</label>
+        <h2> Дисконт для постійних клієнтів </h2>
+         <div id="card">
+           <img src="image/card.png" alt="card"> 
+            <button><img src="icon/money.png" alt="card"> Замовити карту </button> 
+          <form id="form2" method="POST" action="https://formspree.io/mshtogryn@gmail.com">
+             <img id="cross" src="icon/cross-out.png" alt="cross">
+              <img id="cencel" src="icon/cancel.png" alt="cross">
+            <label for="name2"> Імя:</label>
             <input type="text" name="name2" id="name2" placeholder="Ваше імя">
                 <br>
              <label for="tel2"> Телефонний номер:</label>
              <input type="tel" name="tel2" id="tel2" placeholder="068-76-37-737" pattern="[0-9]{3}-[0-9]{2}-[0-9]{2}-[0-9]{3}"> <!-- vvid "-" -->
                 <br>
-            <input type="submit" name="submit1" value="Відправити">
+            <input class="button" type="submit" name="submit1" value="Відправити">
         </form>
-        <h3>Зірки в ПАБ Патіфон</h3>
+        </div>
+        <h3 >Зірки в Патіфоні</h3>
         <div>
-            <ul>
-                <li> <img src="image/star1.jpg" alt="star1"> "Концерт був незабутнім" </li>  
-                <li> <img src="image/star2.jpg" alt="star2"> "Шеф - неперевершений" </li>
-                <li> <img src="image/star3.jpg" alt="star3"> "Найкраще пиво в Україні"</li>
+            <ul id="star">
+                <li class="mob2"> <img src="image/star1.jpg" alt="star1">  </li>  
+                <li> <img src="image/star2.jpg" alt="star2">  </li>
+                <li> <img src="image/star3.jpg" alt="star3"> </li>
+            </ul>
+            <ul id="star1">
+                <li class="mob2" class="err"> "Концерт пройшов незабутньо" </li>  
+                <li class="err"> "Шеф - неперевершений" </li>
+                <li> "Найкраще пиво в Україні"</li>
             </ul>
         </div>
         <h3>Місцезнаходження</h3>
-        <div>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7156.473850562841!2d24.61706815019201!3d49.25107769386986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x6a8deae1f04d1742!2z0JHRg9GA0YjRgtC40L3RgdGM0LrQuNC5INGF0LvRltCx0L7QutC-0LzQsdGW0L3QsNGCLCDQktCQ0KI!5e0!3m2!1suk!2sua!4v1477761162211" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-            <p>Львів, вулиця Надрічна 6</p>
+        <div id="location">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7156.473850562841!2d24.61706815019201!3d49.25107769386986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x6a8deae1f04d1742!2z0JHRg9GA0YjRgtC40L3RgdGM0LrQuNC5INGF0LvRltCx0L7QutC-0LzQsdGW0L3QsNGCLCDQktCQ0KI!5e0!3m2!1suk!2sua!4v1477761162211" width=100% height=400px frameborder="0" style="border:0" allowfullscreen></iframe>
+            <p>Львів, вул. Надрічна 6</p>
         </div>
     </main>   
     <footer>
-        <h3>Підписуйся на канали</h3>
+        <h3>Підписуйся на наші канали</h3>
         <ul>
-            <li>  <a href="https://www.facebook.com/miha.shtogryn"><img src="icon/facebook.png" alt="facebook"> </a> </li>
-            <li>  <a href="https://vk.com/id15023200"><img src="icon/vk.png" alt="vk"> </a> </li>
-            <li>  <a href="https://www.linkedin.com/nhome/#notifications"><img src="icon/linkedin.png" alt="linkedin"> </a> </li>
-            <li>  <a href="https://twitter.com/?lang=uk"><img src="icon/twitter.png" alt="twitter"> </a> </li>
+            <li class="linkk">  <a href="https://www.facebook.com/miha.shtogryn"><img src="icon/facebook.png" alt="facebook"> </a> </li>
+            <li class="linkk">  <a href="https://vk.com/id15023200"><img src="icon/vk.png" alt="vk"> </a> </li>
+            <li class="linkk">  <a href="https://www.linkedin.com/nhome/#notifications"><img src="icon/linkedin.png" alt="linkedin"> </a> </li>
+            <li class="linkk">  <a href="https://twitter.com/?lang=uk"><img src="icon/twitter.png" alt="twitter"> </a> </li>
             <li>  <a href="https://www.youtube.com/channel/UCqfjz-UjSICJEAbZsMHxgQw"><img src="icon/youtube.png" alt="youtube"> </a> </li>
             <li>  <a href="https://ru.foursquare.com/user/336026375"><img src="icon/foursquare.png" alt="foursquare"> </a> </li>
         </ul>
-        <p> &copy; Львів, вулиця Надрічна 6, 937-98-92 </p>
+        <p> &copy; Львів, вул. Надрічна 6, 937-98-92 </p>
     </footer> 
 </body>
 </html>

@@ -67,6 +67,12 @@ h1{
 }
 .img  {
     margin: 0 auto;
+    position: relative;
+}
+.img form {
+    position: absolute;
+    right: 0;
+    top: 15%;
 }
 .img>img {
     width: 100%;
@@ -77,7 +83,6 @@ h1{
 }
 form {
     float: right;
-    right: 0;
     border: 5px solid #3f373c; 
     background-color: #dae1dd;
     color: #3f373c;
@@ -159,6 +164,12 @@ h2 {
     height: 300px;
     display: flex;
     justify-content:center;
+    position: relative;
+}
+#card form {
+    position: absolute;
+    top:0;
+    right: 0;
 }
 #card button {
   
@@ -244,19 +255,27 @@ h4{
     background-color:#3f373c;
     margin-top: 10px;
 }
-.menu1 {
-    padding-top: 10px;
-    clear: left;
-    padding-left: 10px;
- 
+#hover {
+    max-width: 1240px;
 }
-.men1 {
-    float: left;
-    padding-left: 10px;
+table {
+    width: 90%;
+    margin-top: 15px;
 }
-.men2 {
-    float: right;
-    padding-right: 10px;
+table thead th{
+    background-color: #3f373c;
+     text-align: center;
+      color: #dae1dd;
+      font-size: 24px;
+}
+tbody>tr td:nth-child(2) {
+    width: 15%;
+}
+tbody>tr td:nth-child(3) {
+    width: 10%;
+}
+tbody tr:nth-child(3),tbody tr:nth-child(4) {
+    background-color: #b3c9d9;
 }
 #hover>div {
     margin-top: 10px;
@@ -271,6 +290,7 @@ h4{
     position: relative;
     left: -8px;
 }
+
 .form-area {
     position: relative;
     left: -12px;
@@ -283,10 +303,12 @@ h4{
     height: 40px;
 }
 /* Design */
+
 #formdes {
+    margin-top: 15px ;
     display: block;
    width: 100%;
-   margin-top: 25px;
+ 
 }
 #formdes>div {
      display: flex;
@@ -344,4 +366,7 @@ h4{
 #form-about #formdes {
 background-color:#3f373c; 
 color: #dae1dd;
+}
+#cencel {
+    display: none;
 }
