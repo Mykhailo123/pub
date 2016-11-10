@@ -293,7 +293,7 @@ h4{
     display: flex;
     flex-direction:column;
 }
-#formdes #form-submit {
+#formdes .form-submit {
     margin: 10px auto;
     background-color: #dae1dd; 
     color: #3f373c;

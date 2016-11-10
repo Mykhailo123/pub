@@ -261,6 +261,7 @@ h4{
 table {
     width: 90%;
     margin-top: 15px;
+
 }
 table thead th{
     background-color: #3f373c;
@@ -270,12 +271,14 @@ table thead th{
 }
 tbody>tr td:nth-child(2) {
     width: 15%;
+ 
 }
 tbody>tr td:nth-child(3) {
     width: 10%;
 }
 tbody tr:nth-child(3),tbody tr:nth-child(4) {
     background-color: #b3c9d9;
+    border-color: #b3c9d9;
 }
 #hover>div {
     margin-top: 10px;
@@ -295,12 +298,19 @@ tbody tr:nth-child(3),tbody tr:nth-child(4) {
     position: relative;
     left: -12px;
 }
-#formdes #form-submit {
+#formdes .form-submit {
     margin: 10px auto;
     background-color:#3f373c; 
     color: #dae1dd;
-    padding-left: 60px;
     height: 40px;
+}
+.form-submit{
+padding-left: 60px;
+}
+#form-subua{
+    padding-left: 35px;
+    padding-bottom: 35px;
+    width: 350px;
 }
 /* Design */
 
@@ -337,6 +347,7 @@ tbody tr:nth-child(3),tbody tr:nth-child(4) {
 }
 
 /*About */
+
 #map {
     margin-left: 30px;
     margin-top: 10px;
