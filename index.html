@@ -37,10 +37,10 @@
      
         <div class="img">
                  <img src="image/happy-new-year.png" alt="logo">
-             <div><button><img src="icon/money.png" alt="Money"> Reservations</button> </div> <!-- ПРописути type? -->
-          <form id="form-abs" method="POST" action="https://formspree.io/mshtogryn@gmail.com">
-              <img id="cross" src="icon/cross-out.png" alt="cross">
-              <img id="cencel" src="icon/cancel.png" alt="cross">
+             <div><button id="button1"><img src="icon/money.png" alt="Money"> Reservations</button> </div> <!-- ПРописути type? -->
+          <form hidden id="form-abs" class="form-abs1" method="POST" action="https://formspree.io/mshtogryn@gmail.com">
+              <img id="cross1" class="cross" src="icon/cross-out.png" alt="cross">
+              <img id="cencel1" class="cencel" src="icon/cancel.png" alt="cross">
             <label id="label1" for="name1"> Name:</label>
             <input type="text" name="name1" id="name1" placeholder="Your name">
              <label for="tel1"> Phone Number:</label>
@@ -55,11 +55,11 @@
         <h3>Only in PartyFon PUB</h3>
         <div id="only">
             <ul id="icon">
-                <li class="mob"> <img src="icon/restaurant.png" alt="good food"></li>
-                <li> <img src="icon/beer.png" alt="good beer"> </li>
-                <li> <img src="icon/microphone.png" alt="good music"> </li>
-                <li> <img src="icon/team.png" alt="good team">  </li>
-                <li> <img src="icon/truck.png" alt="home delivery"> </li>
+                <li class="transition-scale" class="mob"> <img src="icon/restaurant.png" alt="good food"></li>
+                <li class="transition-scale" > <img src="icon/beer.png" alt="good beer"> </li>
+                <li class="transition-scale"> <img src="icon/microphone.png" alt="good music"> </li>
+                <li class="transition-scale"> <img src="icon/team.png" alt="good team">  </li>
+                <li class="transition-scale"> <img src="icon/truck.png" alt="home delivery"> </li>
             </ul>
              <ul>
                 <li class="mob"> Delicious food </li>
@@ -72,10 +72,10 @@
         <h2> Discounts for regular customers </h2>
          <div id="card">
            <img src="image/card.png" alt="card"> 
-            <button><img src="icon/money.png" alt="card"> Order cards</button> 
-          <form id="form2" method="POST" action="https://formspree.io/mshtogryn@gmail.com">
-             <img id="cross" src="icon/cross-out.png" alt="cross">
-              <img id="cencel" src="icon/cancel.png" alt="cross">
+            <button id="button2"><img src="icon/money.png" alt="card"> Order cards</button> 
+          <form hidden id="form2" method="POST" action="https://formspree.io/mshtogryn@gmail.com">
+             <img id="cross2" class="cross" src="icon/cross-out.png" alt="cross">
+              <img id="cencel2" class="cencel" src="icon/cancel.png" alt="cross">
             <label for="name2"> Name:</label>
             <input type="text" name="name2" id="name2" placeholder="Your name">
                 <br>
@@ -116,5 +116,10 @@
         </ul>
         <p> &copy; Lviv, st. Nadrichna 6, 937-98-92 </p>
     </footer> 
+    <script
+  src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
+      <script type="text/javascript" src="js/index.js"></script>
 </body>
 </html>

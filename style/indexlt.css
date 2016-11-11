@@ -308,9 +308,8 @@ tbody tr:nth-child(3),tbody tr:nth-child(4) {
 padding-left: 60px;
 }
 #form-subua{
-    padding-left: 35px;
+    padding-left: 20px;
     padding-bottom: 35px;
-    width: 350px;
 }
 /* Design */
 
@@ -343,7 +342,7 @@ padding-left: 60px;
 }
 .form-date{
     position: relative;
-    left: 15px;
+    left: 25px;
 }
 
 /*About */
@@ -378,6 +377,16 @@ padding-left: 60px;
 background-color:#3f373c; 
 color: #dae1dd;
 }
-#cencel {
+.cencel {
     display: none;
+}
+
+.transition-scale {
+  position: relative;
+  z-index: 2;
+  cursor: pointer;
+  transition: 0.2s linear;
+}
+.transition-scale:hover {
+  transform: scale(1.2);
 }
