@@ -390,3 +390,31 @@ color: #dae1dd;
 .transition-scale:hover {
   transform: scale(1.2);
 }
+.quantity{
+    text-align: center;
+    width: 150px;
+}
+.plus-btn {
+    background-color: #dae1dd;
+    float: right;
+    padding: 0;
+    margin-right: 20px;
+}
+.minus-btn {
+    background-color: #dae1dd;
+     float: left;
+    padding: 0;
+    margin-left: 20px;
+}
+.quantity input {
+    max-width: 30%;
+    padding-top: 5px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border-color: none;
+    text-align: center;
+    background-color: #dae1dd;
+    font-weight: bold;
+    font-size: 16px;
+    color:#3f373c;
+}

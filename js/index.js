@@ -28,3 +28,26 @@ $(function() {
         $('#form2').hide(700);
     });
 });
+
+$(function() {
+    $('#btn-menu').click(function(e) {
+        e.preventDefault();
+        $.ajax({
+                url: "https://formspree.io/mshtogryn@gmail.com",
+                method: "POST",
+                data: {
+                    name2: name2.value,
+                    tel2: $('#tel2').val(),
+                    adress: $('#adress').val(),
+                    comment: $('#comment').val()
+                },
+                dataType: "json"
+            })
+            .done(function() {
+                $('#formdes').html('<h1>Thank you!</h1>')
+            })
+            .fail(function() {
+                $('#formdes').html('<h1>Error</h1>')
+            });
+    });
+});
