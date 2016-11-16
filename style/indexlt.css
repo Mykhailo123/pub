@@ -390,7 +390,7 @@ color: #dae1dd;
 .transition-scale:hover {
   transform: scale(1.2);
 }
-.quantity{
+.amount{
     text-align: center;
     width: 150px;
 }
@@ -406,7 +406,7 @@ color: #dae1dd;
     padding: 0;
     margin-left: 20px;
 }
-.quantity input {
+.amount input {
     max-width: 30%;
     padding-top: 5px;
     margin-top: 5px;
