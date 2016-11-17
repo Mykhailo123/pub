@@ -49,13 +49,6 @@ function changed() {
   });
   $(".totalpricesubtotal").text("$"+(Math.round(subtotal*100)/100).toFixed(2));
 }
-function changed() {
-  var subtotal1;
-  $(".p").each(function() {
-    subtotal =  ($(this).children(".name").text().replace(""));
-  });
-  $(".totalpricesubtotal").text(subtotal1);
-}
 
 
 
