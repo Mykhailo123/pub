@@ -23,6 +23,7 @@ header #pub {
     top: 60px;
 } 
 nav {
+
     position: relative;
     top:150px;
 }
@@ -38,20 +39,29 @@ header nav ul li  {
       font-size: 25px;
       text-align: center;
       list-style-type: none;
-
+      
+ 
 }
 header nav ul li a {
       text-decoration: none;
       background-color: #3f373c;
       color:#dae1dd;
+  
+  
+      
 
 }
-header>nav>ul>li>a:hover {
+
+header>nav>ul>li>a:hover{
+     
       text-decoration: none;
       background-color: #dae1dd;
       color:#3f373c;
 
 }
+
+    
+
 header>nav>ul>li>a:active {
       text-decoration: none;
       background-color: #dae1dd;
@@ -394,34 +404,36 @@ color: #dae1dd;
     text-align: center;
     width: 150px;
 }
-.plus-btn {
-    background-color: #dae1dd;
-    float: right;
-    padding: 0;
-    margin-right: 20px;
-}
-.minus-btn {
-    background-color: #dae1dd;
-     float: left;
-    padding: 0;
-    margin-left: 20px;
-}
-.amount input {
-    max-width: 30%;
-    padding-top: 5px;
-    margin-top: 5px;
-    border-radius: 5px;
-    border-color: none;
-    text-align: center;
-    background-color: #dae1dd;
-    font-weight: bold;
-    font-size: 16px;
-    color:#3f373c;
-}
+
 .carousel-inner > .item > img {
     margin: 0 auto;
     max-height: 500px; 
 }
-.carousel-control {
-    opacity: 0;
+#myCarousel1,#myCarousel2{
+    display: none;
+}
+#navdes {
+    position: relative;
+   top: 180px;
+}
+#navab {
+    position: relative;
+   top: 180px;
+}
+
+#form-about {
+    position: relative;
+}
+#divab #formdes {
+  
+     position: absolute; 
+     right: 0;
+     top: 20%;
+}
+#divab #formdes #form-submit {
+    color: #3f373c;
+    padding-left: 60px;
+}
+table {
+    border-collapse: collapse;
 }

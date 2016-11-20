@@ -314,5 +314,55 @@ h4{
     margin: 0 auto;
     max-height: 200px; 
 }
-
-  
+#only,#star{
+    display:none;
+}
+body{
+    line-height: 1;
+}
+#myCarousel2 .carousel-inner div img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+} 
+.img {
+     width: 260px;
+     height: 50px;
+     margin: 0 auto;
+     padding-top: 20px;
+}
+#button1 {
+    height: 30px;
+}
+.carousel-control:focus, .carousel-control:hover {
+    opacity: 0;
+}
+.carousel-control{
+     opacity: 0;;
+}
+.carousel-indicators {
+    display: none;
+}
+#navmenu {
+    position: relative;
+    top: 20px;
+}
+table{
+    border-collapse: collapse;
+}
+#comment {
+  width: 82%; 
+}
+#navdes {
+    position: relative;
+   top: 15px;
+}
+#divab #formdes #form-submit {
+    color: #3f373c;
+    padding-left:60px;
+    width: 30%;
+}
+#navab {
+    position: relative;
+   top: 15px;
+}
