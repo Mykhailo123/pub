@@ -22,3 +22,6 @@ header {
 header>p: {
     display: inline;
 }
+#img-place {
+    width: 100%;
+}
