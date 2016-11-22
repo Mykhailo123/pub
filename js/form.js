@@ -14,7 +14,7 @@ $(function() {
                 $('form').html('<h1>Thank you!</h1>')
             })
             .fail(function() {
-                $('form').html('<h1>Error</h1>')
+                $('btn-menu').html('<h1>Error</h1>')
             });
     });
 });
